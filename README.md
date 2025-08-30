@@ -28,9 +28,13 @@ You can access the deployed web application using the following links:
 
 1.  **Dynamic Web Application (via Load Balancer):**
     *   **URL:** `http://my-scalable-webapp-alb-1895054755.us-east-1.elb.amazonaws.com/`
+        Attractive Web App Page via asg
+        <img width="1906" height="972" alt="DNS name" src="https://github.com/user-attachments/assets/a94ef7f5-a250-4c56-a4c2-719c1e61514e" />
     *   This will display the dynamic content served from the EC2 instance managed by the Auto Scaling Group, featuring a more attractive frontend.
 
 2.  **Static Content (via CloudFront CDN):**
     *   **URL:** `d971imkkcxizb.cloudfront.net`
+      Simple Web Page via Cloudfront
+     <img width="1911" height="975" alt="Cloudfront" src="https://github.com/user-attachments/assets/93211549-a2d0-4cc9-8c42-26904c0fb418" />
     *   This demonstrates the efficient delivery of static assets (like `index.html` file) through the CDN.
 
